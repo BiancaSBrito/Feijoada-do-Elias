@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <title>Feijoada do Elias | Comida nordestina em Vitória de Santo Antão</title>
+  <meta name="description" content="Restaurante Feijoada do Elias, em Vitória de Santo Antão (PE). Carne de sol, baião de dois, buchada, picanha argentina e mais. Delivery, retirada e consumo no local.">
+  <meta name="theme-color" content="#142a3f">
+  <meta property="og:title" content="Feijoada do Elias">
+  <meta property="og:description" content="Comida nordestina com tradição, em Vitória de Santo Antão (PE).">
+  <meta property="og:type" content="website">
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Figtree:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+
+  <header class="topo">
+    <div class="container topo-barra">
+      <a class="marca" href="#inicio" aria-label="Feijoada do Elias, início">
+        <img src="assets/logo.png" width="48" height="48" alt="">
+        <span>Feijoada do Elias</span>
+      </a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
+      <nav id="menu" class="menu" aria-label="Principal">
+        <a href="#cardapio">Pratos</a>
+        <a href="#elias">Elias da Feijoada</a>
+        <a href="#galeria">Galeria</a>
+        <a href="#pedir">Como pedir</a>
+        <a class="btn btn-amarelo btn-pequeno" href= https://wa.me/558121601182?text= target="_blank">Acessar WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grade">
+        <div class="hero-texto">
+          <p class="etiqueta">Nossa tradição é ser feliz!</p>
+          <h2>Seja bem-vindo à Feijoada do Elias!</h2>
+          <p class="lead">A Feijoada do Elias oferece o melhor da culinária nordestina, com tradição, sabor e aquele tempero especial de comida caseira. Nossa missão é proporcionar experiências deliciosas, valorizando a cultura e os sabores da nossa terra.</p>
+          <div class="botoes">
+            <a class="btn btn-amarelo" href="#pedir" data-pedir data-alt="Siga-nos no Instagram">Fazer pedido</a>
+            <a class="btn btn-contorno" href="#cardapio">Ver os pratos</a>
+          </div>
+        </div>
+                  <figure class="foto ph elias-foto" data-src="assets/restaurante.jpeg"data-alt="Prato servido no Feijoada do Elias">
+          <figcaption>Foto do restaurante</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <div class="faixa" role="presentation"></div>
+
+    <section class="bloco" id="cardapio">
+      <div class="container">
+        <h2>Pratos da casa</h2>
+        <p class="intro">Sabores do Nordeste, do sertão à brasa.</p>
+        <div class="filtros" role="group" aria-label="Filtrar pratos">
+          <button type="button" class="chip" data-filtro="todos" aria-pressed="true">Todos</button>
+          <button type="button" class="chip" data-filtro="carnes" aria-pressed="false">Carnes</button>
+          <button type="button" class="chip" data-filtro="regionais" aria-pressed="false">Pratos regionais</button>
+        </div>
+        <ul class="pratos" id="lista-pratos"></ul>
+        <noscript><p>Pratos: maminha, carne de sol, arrumadinho de charque, baião de dois, buchada, mistão, picanha argentina e charque na brasa.</p></noscript>
+      </div>
+    </section>
+
+    <section class="bloco bloco-azul" id="elias">
+      <div class="container elias-grade">
+        <figure class="foto ph elias-foto" data-src="assets/Elias.jpeg" data-alt="Seu Elias, dono do restaurante">
+          <figcaption>Foto do Seu Elias</figcaption>
+        </figure>
+        <div class="elias-texto">
+    
+          <h2>A história do Elias da Feijoada</h2>
+          <!-- Substitua os parágrafos abaixo pela história real do Seu Elias -->
+          <p>Elias da Feijoada nasceu em 28 de setembro de 1945, em Chã Grande. Homem trabalhador e empreendedor iniciou sua trajetória na Pitú e, em 1992, começou seu próprio negócio com uma pequena barraca de cereais e bebidas.
+            Com dedicação, transformou seu sonho no Restaurante Feijoada do Elias, tornando-se uma figura conhecida em Vitória de Santo Antão e região pelo sabor de sua comida e pelo famoso “remedinho”.  
+          </p>
+          <p>Pai de duas filhas e avô de duas netas, deixou um legado de amor, trabalho e empreendedorismo. Faleceu em 16 de dezembro de 2015, mas sua história e seu nome permanecem vivos na memória de todos que o conheceram.</p>
+        </div>
+      </div>
+    </section>
+
+  
+    <div class="faixa" role="presentation"></div>
+
+    <section class="bloco" id="pedir">
+      <div class="container">
+        <h2>Como pedir</h2>
+        <p class="intro">Delivery, retirada e consumo no local.  
+          <p class="etiqueta">Telefone: (81) 2160-1182</p>
+        
+      
+        <ul class="modos">
+          <li class="modo">
+            <h3>Delivery</h3>
+            <p>Escolha seus pratos no cardápio digital e receba em casa.</p>
+          </li>
+          <li class="modo">
+            <h3>Retirada no local</h3>
+            <p>Faça o pedido antes e retire no restaurante, sem espera.</p>
+          </li>
+          <li class="modo">
+            <h3>Consumo no local</h3>
+            <p>Vem ser feliz com a gente, aqui, em Vitória de Santo Antão.</p>
+          </li>
+        </ul>
+        <div class="botoes centro">
+          <a class="btn btn-azul" href= https://wa.me/558121601182?text= target="_blank">Faça seu pedido aqui</a>
+      
+       
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+   
+    <div class="container rodape-conteudo">
+      <a class="marca" href="#inicio" aria-label="Voltar ao início">
+    
+    
+      </a>
+      <p> Rua: Colinas do Canadá, 32 |
+        Jardim São Pedro |
+        Vitória de Santo Antão - PE</p>
+      <p>Todos os direitos reservados | CNPJ: 50.662.182/0001-34</p>
+      <p class="direitos"> <a href="https://www.instagram.com/biabtx/" target="_blank" rel="noopener noreferrer">© 2026 Bianca Brito</p></a>
+    </div>
+  </footer>
+
+  <dialog id="ampliar" aria-label="Foto ampliada">
+    <form method="dialog"><button class="fechar" aria-label="Fechar">Fechar</button></form>
+    <img alt="">
+    <p></p>
+  </dialog>
+
+  <script src="js/dados.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
